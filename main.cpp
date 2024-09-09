@@ -12,7 +12,6 @@ class Shape {
     virtual double area() = 0;
     Shape(std::string name, std::string color) : name(name), color(color) {};
     virtual ~Shape() {}
-
 };
 
 class Circle : public Shape {
